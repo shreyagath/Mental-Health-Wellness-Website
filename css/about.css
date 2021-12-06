@@ -1,0 +1,108 @@
+.col
+{
+    flex-basis: 50%;
+    padding: 30px 70px;
+    /* border: 1px solid red; */
+}
+
+h1
+{
+    color:black;
+    font-size:72px; 
+}
+p
+{
+    color:black;
+    font-size:22px;
+    
+}
+button
+{
+    width:180px;
+    color:#fff;
+    font-size:20px;
+    padding:12px 0;
+    background:black;
+    border:0;
+    border-radius: 20px;
+    outline:none;
+    margin-top:30px;
+}
+
+.card{
+    background-color: white;
+    border-radius: 10px;  
+    padding: 20px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.pic
+{
+    width:350px;
+    height:400px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition:transform 0.5s;
+    
+}
+.row
+{
+    width:97%;
+    height:63%;
+}
+
+.pic1
+{   
+    background-image:url(../images/story.jfif);
+    width:780px;
+    height:500px;
+}
+.pic2
+{   
+    background-image:url(../images/shre.jpeg);
+}
+
+.pic4
+{   
+    background-image:url(../images/dep.jpeg);
+
+}
+.pic3
+{   
+    background-image:url(../images/mission.jfif);
+    width:780px;
+    height:500px;
+
+}
+.pic5
+{   
+    background-image:url(../images/t1.jfif);
+    width:350px;
+    height:400px;
+
+}
+.pic6
+{   
+    background-image:url(../images/t2.jpg);
+    width:350px;
+    height:400px;
+}
+
+.pic:hover{
+    transform:translateY(-10px);
+}
+
+h5{
+    color:white;
+    text-shadow:0 0 5px #999;
+}
+

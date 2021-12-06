@@ -1,0 +1,107 @@
+h2
+{   
+    text-align: center;
+    font-size: 200%;
+    margin: 20px 0 30px;
+}
+
+
+.col
+{
+    flex-basis: 50%;
+    padding: 10px;
+}
+h1
+{
+    color:black;
+    font-size:72px; 
+}
+p
+{
+    color:black;
+    font-size:22px;
+    
+   
+}
+
+.card{
+    background-color: white;
+    border-radius: 10px;  
+    padding: 20px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.pic
+{
+    width:180px;
+    height:200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 20px;
+    background-position: center;
+    background-size: cover;
+    transition:transform 0.5s;
+ 
+
+}
+
+.frame
+{
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-position: center;
+    padding: 15px 25px;
+    margin: 10px 20px;
+}
+
+.row
+{
+    width:97%;
+    height: 55%;
+}
+
+
+.pic1
+{   
+    background-image:url(../images/ma10.jfif);
+}
+.pic2
+{   
+    background-image:url(../images/ma4.jpeg);
+}
+.pic3
+{   
+    background-image:url(../images/ma8.jpeg);
+}
+.pic4
+{   
+    background-image:url(../images/ma6.jpeg);
+}
+.pic5
+{   
+    background-image:url(../images/ma9.jpeg);
+}
+.pic6
+{   
+    background-image:url(../images/ma3.jpeg);
+}
+.pic7
+{   
+    background-image:url(../images/ma7.jpeg);
+}
+.pic8
+{   
+    background-image:url(../images/ma5.jpeg);
+}
+.col li{
+    text-align: justify;
+    font-size: larger;
+    font-weight: 400;
+}

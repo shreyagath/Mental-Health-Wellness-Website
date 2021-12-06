@@ -1,0 +1,151 @@
+
+.col
+{
+    flex-basis: 50%;
+    padding: 10px;
+}
+h1
+{
+    color:black;
+    font-size:72px; 
+}
+p
+{
+    color:black;
+    font-size:22px;
+    
+   
+}
+button
+{
+    width:180px;
+    color:#fff;
+    font-size:20px;
+    padding:12px 0;
+    background:black;
+    border:0;
+    border-radius: 20px;
+    outline:none;
+    margin-top:30px;
+}
+
+.card{
+    background-color: white;
+    border-radius: 10px;  
+    padding: 20px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.pic
+{
+    width:180px;
+    height:200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition:transform 0.5s;
+}
+.row
+{
+    width:97%;
+    height: 55%;
+}
+
+.pic1
+{   
+    background-image:url(../images/bharatnatyam.jpg);
+}
+.pic2
+{   
+    background-image:url(../images/kuchipudi.jpg);
+}
+.pic3
+{   
+    background-image:url(../images/kathak.jpg);
+}
+.pic4
+{   
+    background-image:url(../images/lavani.jpg);
+}
+.pic5
+{   
+    background-image:url(../images/ph10.jpeg);
+}
+.pic6
+{   
+    background-image:url(../images/ph13.jpeg);
+}
+.pic7
+{   
+    background-image:url(../images/ph4.jpeg);
+}
+.pic8
+{   
+    background-image:url(../images/ph3.jpeg);
+}
+.pic9
+{   
+    background-image:url(../images/mu1.jpeg);
+}
+.pic10
+{   
+    background-image:url(../images/mu4.jpeg);
+}
+.pic11
+{   
+    background-image:url(../images/mu7.jpeg);
+}
+.pic12
+{   
+    background-image:url(../images/mu15.jpeg);
+}
+.pic13
+{   
+    background-image:url(../images/ma4.jpeg);
+}
+.pic14
+{   
+    background-image:url(../images/ma9.jpeg);
+}
+.pic15
+{   
+    background-image:url(../images/ma7.jpeg);
+}
+.pic16
+{   
+    background-image:url(../images/ma2.jpeg);
+}
+.pic17
+{   
+    background-image:url(../images/p3.jpeg);
+}
+.pic18
+{   
+    background-image:url(../images/p7.jpeg);
+}
+.pic19
+{   
+    background-image:url(../images/p9.jpeg);
+}
+.pic20
+{   
+    background-image:url(../images/p5.jpeg);
+}
+
+.pic:hover{
+    transform:translateY(-10px);
+}
+
+h5{
+    color:white;
+    text-shadow:0 0 5px #999;
+}
+
