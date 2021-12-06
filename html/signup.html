@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/signup.css">
+		<script>
+			function validate(form) {
+				password1 = form.Password.value;
+				password2 = form.ConfirmPassword.value;
+						
+				if (password1 != password2) {
+					alert ("\nPassword did not match: Please try again...");
+					return false;
+				}
+				else{
+				   return true;
+				}
+			}
+		</script>
+    </head>
+    <body>
+    <form action="..\backend\signup.php"  method="POST" onsubmit="return validate(this);">
+                <div class="Sign-Up-Form">
+                    <h2>Sign-Up Now</h2>
+                    <div class="txt_field">
+                        <input type="text" name="username" pattern="^[a-zA-Z0-9\s]*$" title="Must contain uppercase/lowercase letter"  required>
+                        <span></span>
+                        <label>Username</label>
+                    </div> 
+                
+                    <div class="txt_field">
+                        <input type="email" name="email" required><br>
+                        <span></span>
+                        <label>Email</label>
+                    </div>
+                    
+                    <div class="txt_field">
+                        <input type="password" name="password" required><br>
+                        <span></span>
+                        <label>Password</label>
+                    </div> 
+                        
+                    <div class="txt_field">
+                        <input type="password" name="cpass" required>
+                        <span></span>
+                        <label>Confirm Password</label>
+                    </div>
+                        
+                    <input type="submit"  value="Sign-Up">
+                        <div class="login_link">
+                            Already have an account? <a href="login.html">Login</a>
+                        </div>
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>

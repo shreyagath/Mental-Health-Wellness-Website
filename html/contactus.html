@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us Page </title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="undefined" crossorigin="anonymous">
+        <link  rel="stylesheet" type="text/css" href="../css/contact.css" >
+        <link rel="stylesheet" type="text/css" href="../css/home1.css">
+        <link  rel="stylesheet" type="text/css" href="../css/display.css" >
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>Contact Us</title>
+
+</head>
+
+    <body>
+        <div class="nav-container">
+            <span class="logo">BLOOM</span>
+            <nav>
+                <a href="..\home.php">Home</a>
+                <a href="blog.html">Blog</a>
+                <a href="activity.html">Activity</a>
+                <a href="humor.html">Humor</a>
+                <a href="about.html">About</a>
+                <a href="#">Contact</a>
+       <div class="animation start-contact"></div>
+            </nav>
+        </div>
+    <div class="bg-image"></div>
+        <div class="space">
+            <div class="row card-contact">
+                <div class="col heading-box">
+                    <h1> Contact us</h1>
+                    <p> Email: bloom@gmail.com</p>
+                    <p> Phone: +91000000000</p>
+                    <div class="grid-item"> 
+                        <span class="socials"><a href="#"><i class="fab fa-facebook-f"></i></a></span>
+                        <span class="socials"><a href="#"><i class="fab fa-twitter"></i></a></span>
+                        <span class="socials"><a href="#"><i class="fab fa-instagram"></i></a></span>
+                        <span class="socials"><a href="#"><i class="fab fa-linkedin"></i></a></span>
+                    </div>
+                </div>
+                <div class="col" style="text-align: center;">
+                    <form action="..\backend\contactus.php" method="POST">
+                        <div>
+                            <input type="input" placeholder="First name" name="firstname" id="ip1" required/>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="input" placeholder="Last name" name="lastname" id="ip1" required/>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="input" placeholder="Phone no" name="phone" id="ip1"/>
+                        </div> 
+                        <br>
+                        <div>
+                            <input type="input" placeholder="Address" name="address" id="ip1"/>
+                        </div> 
+                        <br>
+                        <div>
+                            <input type="input" placeholder="Email" name="email" id="ip1" required/>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="text" style="height: 100px;" placeholder="Message" name="message" id="ip1"required/>
+                        </div>
+                        <br>
+                        <div>
+                            <button id="custom-button">Submit</button>
+                        </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
+
+        
+
+    
