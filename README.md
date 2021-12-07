@@ -17,7 +17,8 @@ Software: XAMPP, WAMP, MAMP, LAMP (anyone) <br>
 • Contains a blog page where articles related to mental health well-being are available for the readers to read<br>
 •	User can contact the therapists listed and we will be providing our special attention to the person through the therapists<br><br>
 
-## Technology Used; PHP, MySQL, HTML, CSS , JavaScript <br><br>
+## Technology Used<br>
+PHP, MySQL, HTML, CSS , JavaScript <br><br>
 
 ## User Module <br>
 •	Sign Up:-For further authentication user is allowed to sign up and be a active member of website<br>
